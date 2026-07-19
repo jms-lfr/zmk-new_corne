@@ -79,7 +79,8 @@
             sensor-bindings = <&rsr_scroll>, <&rsr_trans>;
         };
 
-        numsym {
+        numsym_layer {
+            display-name = "numsym";
             bindings = <
 &none  &kp N1     &kp N2     &kp N3     &kp N4    &kp N5                     &none         &kp N6  &kp N7  &kp N8  &kp N9  &kp N0  &none
 &none  &kp GRAVE  &kp EQUAL  &kp MINUS  &kp PIPE  &kp SQT             &none  &none  &none  &trans  &trans  &trans  &trans  &trans  &none
@@ -90,7 +91,8 @@
             sensor-bindings = <&rsr_scroll>, <&rsr_trans>;
         };
 
-        nav {
+        nav_layer {
+            display-name = "nav";
             bindings = <
 &none  &none    &kp TAB  &kp TAB          &none        &none                  &none         &kp RIGHT_PARENTHESIS  &kp LEFT_PARENTHESIS  &kp LEFT_BRACE  &kp RIGHT_BRACE   &none  &none
 &none  &kp ESC  &none    &kp LS(LC(TAB))  &kp LC(TAB)  &none           &none  &none  &none  &kp LEFT               &kp DOWN              &kp UP          &kp RIGHT         &none  &none
