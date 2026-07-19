@@ -87,7 +87,7 @@
                              &none      &none     &kp LSHFT                                &none   &none   &none
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>;
+            sensor-bindings = <&rsr_scroll>, <&rsr_trans>;
         };
 
         nav {
@@ -98,7 +98,7 @@
                          &none            &none        &none                                &none                  &none                 &none
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>;
+            sensor-bindings = <&rsr_scroll>, <&rsr_trans>;
         };
     };
 };
